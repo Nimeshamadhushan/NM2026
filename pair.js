@@ -11,7 +11,7 @@ async function getPairCode() {
 
     if (!conn.authState.creds.registered) {
         await delay(5000);
-        const code = await conn.requestPairingCode("94784776100");
+        const code = await conn.requestPairingCode("94726800969");
         console.log("----------------------------");
         console.log("YOUR CODE IS: " + code);
         console.log("----------------------------");
